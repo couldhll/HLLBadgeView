@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2CE24F31963B35A001E23BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE24F21963B35A001E23BE /* Foundation.framework */; };
+		B2CE24F81963B35A001E23BE /* HLLBadgeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2CE24F71963B35A001E23BE /* HLLBadgeView.h */; };
+		B2CE24FA1963B35A001E23BE /* HLLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CE24F91963B35A001E23BE /* HLLBadgeView.m */; };
+		B2CE25011963B35A001E23BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE25001963B35A001E23BE /* XCTest.framework */; };
+		B2CE25021963B35A001E23BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE24F21963B35A001E23BE /* Foundation.framework */; };
+		B2CE25041963B35A001E23BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE25031963B35A001E23BE /* UIKit.framework */; };
+		B2CE25071963B35A001E23BE /* libHLLBadgeView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE24EF1963B35A001E23BE /* libHLLBadgeView.a */; };
+		B2CE250D1963B35A001E23BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2CE250B1963B35A001E23BE /* InfoPlist.strings */; };
+		B2CE250F1963B35A001E23BE /* HLLBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CE250E1963B35A001E23BE /* HLLBadgeViewTests.m */; };
+		B2CE251A1963B378001E23BE /* UIView+HLLBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CE25191963B378001E23BE /* UIView+HLLBadgeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2CE25051963B35A001E23BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2CE24E71963B35A001E23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CE24EE1963B35A001E23BE;
+			remoteInfo = HLLBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2CE24ED1963B35A001E23BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B2CE24F81963B35A001E23BE /* HLLBadgeView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2CE24EF1963B35A001E23BE /* libHLLBadgeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHLLBadgeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CE24F21963B35A001E23BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2CE24F61963B35A001E23BE /* HLLBadgeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLLBadgeView-Prefix.pch"; sourceTree = "<group>"; };
+		B2CE24F71963B35A001E23BE /* HLLBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLBadgeView.h; sourceTree = "<group>"; };
+		B2CE24F91963B35A001E23BE /* HLLBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLBadgeView.m; sourceTree = "<group>"; };
+		B2CE24FF1963B35A001E23BE /* HLLBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CE25001963B35A001E23BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2CE25031963B35A001E23BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2CE250A1963B35A001E23BE /* HLLBadgeViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLLBadgeViewTests-Info.plist"; sourceTree = "<group>"; };
+		B2CE250C1963B35A001E23BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2CE250E1963B35A001E23BE /* HLLBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLBadgeViewTests.m; sourceTree = "<group>"; };
+		B2CE25181963B378001E23BE /* UIView+HLLBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLLBadgeView.h"; sourceTree = "<group>"; };
+		B2CE25191963B378001E23BE /* UIView+HLLBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLLBadgeView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CE24EC1963B35A001E23BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE24F31963B35A001E23BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CE24FC1963B35A001E23BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE25011963B35A001E23BE /* XCTest.framework in Frameworks */,
+				B2CE25071963B35A001E23BE /* libHLLBadgeView.a in Frameworks */,
+				B2CE25041963B35A001E23BE /* UIKit.framework in Frameworks */,
+				B2CE25021963B35A001E23BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CE24E61963B35A001E23BE = {
+			isa = PBXGroup;
+			children = (
+				B2CE24F41963B35A001E23BE /* HLLBadgeView */,
+				B2CE25081963B35A001E23BE /* HLLBadgeViewTests */,
+				B2CE24F11963B35A001E23BE /* Frameworks */,
+				B2CE24F01963B35A001E23BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CE24F01963B35A001E23BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE24EF1963B35A001E23BE /* libHLLBadgeView.a */,
+				B2CE24FF1963B35A001E23BE /* HLLBadgeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CE24F11963B35A001E23BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE24F21963B35A001E23BE /* Foundation.framework */,
+				B2CE25001963B35A001E23BE /* XCTest.framework */,
+				B2CE25031963B35A001E23BE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2CE24F41963B35A001E23BE /* HLLBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE24F71963B35A001E23BE /* HLLBadgeView.h */,
+				B2CE24F91963B35A001E23BE /* HLLBadgeView.m */,
+				B2CE25181963B378001E23BE /* UIView+HLLBadgeView.h */,
+				B2CE25191963B378001E23BE /* UIView+HLLBadgeView.m */,
+				B2CE24F51963B35A001E23BE /* Supporting Files */,
+			);
+			path = HLLBadgeView;
+			sourceTree = "<group>";
+		};
+		B2CE24F51963B35A001E23BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE24F61963B35A001E23BE /* HLLBadgeView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2CE25081963B35A001E23BE /* HLLBadgeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE250E1963B35A001E23BE /* HLLBadgeViewTests.m */,
+				B2CE25091963B35A001E23BE /* Supporting Files */,
+			);
+			path = HLLBadgeViewTests;
+			sourceTree = "<group>";
+		};
+		B2CE25091963B35A001E23BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE250A1963B35A001E23BE /* HLLBadgeViewTests-Info.plist */,
+				B2CE250B1963B35A001E23BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CE24EE1963B35A001E23BE /* HLLBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CE25121963B35A001E23BE /* Build configuration list for PBXNativeTarget "HLLBadgeView" */;
+			buildPhases = (
+				B2CE24EB1963B35A001E23BE /* Sources */,
+				B2CE24EC1963B35A001E23BE /* Frameworks */,
+				B2CE24ED1963B35A001E23BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLLBadgeView;
+			productName = HLLBadgeView;
+			productReference = B2CE24EF1963B35A001E23BE /* libHLLBadgeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2CE24FE1963B35A001E23BE /* HLLBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CE25151963B35A001E23BE /* Build configuration list for PBXNativeTarget "HLLBadgeViewTests" */;
+			buildPhases = (
+				B2CE24FB1963B35A001E23BE /* Sources */,
+				B2CE24FC1963B35A001E23BE /* Frameworks */,
+				B2CE24FD1963B35A001E23BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CE25061963B35A001E23BE /* PBXTargetDependency */,
+			);
+			name = HLLBadgeViewTests;
+			productName = HLLBadgeViewTests;
+			productReference = B2CE24FF1963B35A001E23BE /* HLLBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CE24E71963B35A001E23BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CouldHll;
+			};
+			buildConfigurationList = B2CE24EA1963B35A001E23BE /* Build configuration list for PBXProject "HLLBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2CE24E61963B35A001E23BE;
+			productRefGroup = B2CE24F01963B35A001E23BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CE24EE1963B35A001E23BE /* HLLBadgeView */,
+				B2CE24FE1963B35A001E23BE /* HLLBadgeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CE24FD1963B35A001E23BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE250D1963B35A001E23BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CE24EB1963B35A001E23BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE251A1963B378001E23BE /* UIView+HLLBadgeView.m in Sources */,
+				B2CE24FA1963B35A001E23BE /* HLLBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CE24FB1963B35A001E23BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE250F1963B35A001E23BE /* HLLBadgeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CE25061963B35A001E23BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CE24EE1963B35A001E23BE /* HLLBadgeView */;
+			targetProxy = B2CE25051963B35A001E23BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2CE250B1963B35A001E23BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2CE250C1963B35A001E23BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2CE25101963B35A001E23BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2CE25111963B35A001E23BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2CE25131963B35A001E23BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HLLBadgeView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLBadgeView/HLLBadgeView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B2CE25141963B35A001E23BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HLLBadgeView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLBadgeView/HLLBadgeView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2CE25161963B35A001E23BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLBadgeView/HLLBadgeView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HLLBadgeViewTests/HLLBadgeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2CE25171963B35A001E23BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLBadgeView/HLLBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "HLLBadgeViewTests/HLLBadgeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CE24EA1963B35A001E23BE /* Build configuration list for PBXProject "HLLBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CE25101963B35A001E23BE /* Debug */,
+				B2CE25111963B35A001E23BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CE25121963B35A001E23BE /* Build configuration list for PBXNativeTarget "HLLBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CE25131963B35A001E23BE /* Debug */,
+				B2CE25141963B35A001E23BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CE25151963B35A001E23BE /* Build configuration list for PBXNativeTarget "HLLBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CE25161963B35A001E23BE /* Debug */,
+				B2CE25171963B35A001E23BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2CE24E71963B35A001E23BE /* Project object */;
+}
